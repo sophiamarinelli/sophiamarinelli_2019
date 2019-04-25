@@ -25,6 +25,6 @@ function showSlides(n, no) {
   x[slideIndex[no]-1].style.display = "block";  
 }
 
-document.getElementById('shout').onclick = function(event) {
-   document.getElementById('shout').className = "hide";
+document.getElementById('header').onclick = function(event) {
+   document.getElementById('header').className = "hide";
 }
