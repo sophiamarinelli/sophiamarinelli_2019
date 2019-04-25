@@ -154,11 +154,24 @@ a:hover {
 
 @media only screen and (max-width: 768px) {
 
-  .caption {
-/*  text-align: center;
-  font-size: .7em;
+.header {
+  pointer-events: none;
+  position: fixed;
+  font-size: 4em;
+  width: 100%;
+  height: 100vh;
+}
+
+.center {
+  position: absolute;
   margin: auto;
-  width: 300px;*/
+}
+
+.caption {
+  display: none;
+}
+
+.box:hover .caption {
   display: none;
 }
 
